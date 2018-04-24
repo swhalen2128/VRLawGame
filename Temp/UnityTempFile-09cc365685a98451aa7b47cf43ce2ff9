@@ -1,0 +1,268 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'Assets/Plugins/Google.ProtocolBuffers.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_1
+-define:UNITY_5_4
+-define:UNITY_5
+-define:UNITY_ANALYTICS
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+'Assets/AIAnimation.cs'
+'Assets/AllStarCharacterLibray/Scripts/CamTarget.cs'
+'Assets/AllStarCharacterLibray/Scripts/CharacterDemoController.cs'
+'Assets/AllStarCharacterLibray/Scripts/MouseOrbit.cs'
+'Assets/AllStarCharacterLibray/Scripts/Outfitter.cs'
+'Assets/AllStarCharacterLibray/Scripts/RootMotionOff.cs'
+'Assets/AllStarCharacterLibray/Scripts/SkinnedMeshCombiner.cs'
+'Assets/Asian professional female/_Scripts/mouseMoveContr.cs'
+'Assets/ButtonListener.cs'
+'Assets/Courtroom/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'
+'Assets/Courtroom/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs'
+'Assets/Courtroom/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs'
+'Assets/Courtroom/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs'
+'Assets/Courtroom/Standard Assets/Characters/RollerBall/Scripts/Ball.cs'
+'Assets/Courtroom/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs'
+'Assets/Courtroom/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs'
+'Assets/Courtroom/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs'
+'Assets/Courtroom/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/Courtroom/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/Courtroom/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
+'Assets/Courtroom/Standard Assets/Utility/ActivateTrigger.cs'
+'Assets/Courtroom/Standard Assets/Utility/AlphaButtonClickMask.cs'
+'Assets/Courtroom/Standard Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/Courtroom/Standard Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/Courtroom/Standard Assets/Utility/CameraRefocus.cs'
+'Assets/Courtroom/Standard Assets/Utility/CurveControlledBob.cs'
+'Assets/Courtroom/Standard Assets/Utility/DragRigidbody.cs'
+'Assets/Courtroom/Standard Assets/Utility/DynamicShadowSettings.cs'
+'Assets/Courtroom/Standard Assets/Utility/EventSystemChecker.cs'
+'Assets/Courtroom/Standard Assets/Utility/FOVKick.cs'
+'Assets/Courtroom/Standard Assets/Utility/FPSCounter.cs'
+'Assets/Courtroom/Standard Assets/Utility/FollowTarget.cs'
+'Assets/Courtroom/Standard Assets/Utility/ForcedReset.cs'
+'Assets/Courtroom/Standard Assets/Utility/LerpControlledBob.cs'
+'Assets/Courtroom/Standard Assets/Utility/ObjectResetter.cs'
+'Assets/Courtroom/Standard Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/Courtroom/Standard Assets/Utility/PlatformSpecificContent.cs'
+'Assets/Courtroom/Standard Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/Courtroom/Standard Assets/Utility/SimpleMouseRotator.cs'
+'Assets/Courtroom/Standard Assets/Utility/SmoothFollow.cs'
+'Assets/Courtroom/Standard Assets/Utility/TimedObjectActivator.cs'
+'Assets/Courtroom/Standard Assets/Utility/TimedObjectDestructor.cs'
+'Assets/Courtroom/Standard Assets/Utility/WaypointCircuit.cs'
+'Assets/Courtroom/Standard Assets/Utility/WaypointProgressTracker.cs'
+'Assets/GameManager.cs'
+'Assets/GoogleVR/DemoScenes/ControllerDemo/ControllerDebugInfo.cs'
+'Assets/GoogleVR/DemoScenes/ControllerDemo/ControllerDemoManager.cs'
+'Assets/GoogleVR/DemoScenes/HeadsetDemo/FPS.cs'
+'Assets/GoogleVR/DemoScenes/HeadsetDemo/Teleport.cs'
+'Assets/GoogleVR/Legacy/Scripts/GvrHead.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/GvrCameraUtils.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/GvrEye.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/GvrPostRender.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/GvrPreRender.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/GvrProfile.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/StereoController.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/StereoRenderEffect.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/AndroidDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseAndroidDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseVRDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/EditorDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/GvrDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/UnityVRDevice.cs'
+'Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/iOSDevice.cs'
+'Assets/GoogleVR/Scripts/Audio/GvrAudio.cs'
+'Assets/GoogleVR/Scripts/Audio/GvrAudioListener.cs'
+'Assets/GoogleVR/Scripts/Audio/GvrAudioRoom.cs'
+'Assets/GoogleVR/Scripts/Audio/GvrAudioSoundfield.cs'
+'Assets/GoogleVR/Scripts/Audio/GvrAudioSource.cs'
+'Assets/GoogleVR/Scripts/Controller/GvrController.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs'
+'Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs'
+'Assets/GoogleVR/Scripts/GazeInputModule.cs'
+'Assets/GoogleVR/Scripts/GvrSettings.cs'
+'Assets/GoogleVR/Scripts/GvrViewer.cs'
+'Assets/GoogleVR/Scripts/Pose3D.cs'
+'Assets/GoogleVR/Scripts/UI/GvrGaze.cs'
+'Assets/GoogleVR/Scripts/UI/GvrReticle.cs'
+'Assets/GoogleVR/Scripts/UI/IGvrGazePointer.cs'
+'Assets/GoogleVR/Scripts/UI/IGvrGazeResponder.cs'
+'Assets/GoogleVR/Scripts/Utilities/GvrFPS.cs'
+'Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs'
+'Assets/GoogleVRAndGearVR/Demo/Scripts/SceneLoader.cs'
+'Assets/GoogleVRAndGearVR/Demo/Scripts/VRAutowalk.cs'
+'Assets/ModernPeople/Modern People/Demo/Scripts/Anim.cs'
+'Assets/ModernPeople/Modern People/Demo/Scripts/Presentation.cs'
+'Assets/OVR/Scripts/OVRBoundary.cs'
+'Assets/OVR/Scripts/OVRCameraRig.cs'
+'Assets/OVR/Scripts/OVRCommon.cs'
+'Assets/OVR/Scripts/OVRDebugHeadController.cs'
+'Assets/OVR/Scripts/OVRDisplay.cs'
+'Assets/OVR/Scripts/OVRHaptics.cs'
+'Assets/OVR/Scripts/OVRHapticsClip.cs'
+'Assets/OVR/Scripts/OVRInput.cs'
+'Assets/OVR/Scripts/OVRManager.cs'
+'Assets/OVR/Scripts/OVROnCompleteListener.cs'
+'Assets/OVR/Scripts/OVROverlay.cs'
+'Assets/OVR/Scripts/OVRPlatformMenu.cs'
+'Assets/OVR/Scripts/OVRPlugin.cs'
+'Assets/OVR/Scripts/OVRProfile.cs'
+'Assets/OVR/Scripts/OVRTouchpad.cs'
+'Assets/OVR/Scripts/OVRTracker.cs'
+'Assets/OVR/Scripts/Util/OVRChromaticAberration.cs'
+'Assets/OVR/Scripts/Util/OVRCubemapCapture.cs'
+'Assets/OVR/Scripts/Util/OVRDebugInfo.cs'
+'Assets/OVR/Scripts/Util/OVRGridCube.cs'
+'Assets/OVR/Scripts/Util/OVRModeParms.cs'
+'Assets/OVR/Scripts/Util/OVRMonoscopic.cs'
+'Assets/OVR/Scripts/Util/OVRPlayerController.cs'
+'Assets/OVR/Scripts/Util/OVRRTOverlayConnector.cs'
+'Assets/OVR/Scripts/Util/OVRResetOrientation.cs'
+'Assets/OVR/Scripts/Util/OVRSceneSampleController.cs'
+'Assets/OVR/Scripts/Util/OVRScreenFade.cs'
+'Assets/OVR/Scripts/Util/OVRWaitCursor.cs'
+'Assets/audioScript.cs'
+'Assets/buttonClick.cs'
+'Assets/gameTimer.cs'
+'Assets/health.cs'
+'Assets/playscript.cs'
+'Assets/testcontrol.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
